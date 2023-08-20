@@ -2,12 +2,16 @@
 name = "littlelameow"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["zhowzeng <zenglihao106@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+python-dotenv = "^1.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
 
 [build-system]
 requires = ["poetry-core"]

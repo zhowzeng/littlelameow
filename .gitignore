@@ -1,0 +1,6 @@
+# secret
+/.env
+
+# file, folder, and link
+.vscode/
+__pycache__/
